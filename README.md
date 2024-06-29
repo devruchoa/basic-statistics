@@ -71,6 +71,26 @@ O arquivo de dados (data/sample_data.txt) deve conter uma lista de números, um 
     5.0
 ```
 
+## Usando Docker
+
+Este projeto possui um Dockerfile que pode ser usado para compilar e executar o código em um contêiner Docker.
+
+### Construindo a imagem Docker
+
+Para construir a imagem Docker, execute:
+
+```sh
+docker build -t fortran-app .
+```
+
+### Executando o contêiner Docker
+
+Para executar o contêiner Docker, execute:
+
+```sh
+docker run -it --rm fortran-app
+```
+
 ## Licença 
 
 Este projeto está licensiado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
